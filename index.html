@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <title>Send Email</title>
+</head>
+
+<body>
+    <form class="container" id="email-form" action="#">
+
+        <div class="container">
+            <div class="contact-box">
+                <div class="left"></div>
+                <div class="right">
+                    <h1>Send Email</h1>
+                    <input type="email" id="email" class="field" placeholder="Enter Email Address">
+                    <input type="text" id="subject" class="field" placeholder="Subject">
+                    <textarea class="field area" id="message" placeholder="Message"></textarea>
+                    <div id="loaders">
+                        <img id="spinner" src="img/spinner.gif" width="150">
+                    </div>
+                    <button id="sendBtn" class="btn" type="submit">Send</button>
+                    <button id="resetBtn" class="btn-reset">Reset</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
